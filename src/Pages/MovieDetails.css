@@ -1,0 +1,60 @@
+.movie-details-page {
+  min-height: 100vh;
+  background-color: #0f172a;
+  padding: 50px;
+  color: white;
+}
+
+.details-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.details-poster {
+  width: 320px;
+  border-radius: 12px;
+  display: block;
+}
+
+.details-content {
+  padding-top: 10px;
+}
+
+.details-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.details-content p {
+  color: #d1d5db;
+  line-height: 1.7;
+}
+
+.details-content strong {
+  color: white;
+}
+
+.details-content h2 {
+  margin-top: 30px;
+}
+
+.overview {
+  max-width: 650px;
+  font-size: 16px;
+}
+
+.loading {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 50px;
+}

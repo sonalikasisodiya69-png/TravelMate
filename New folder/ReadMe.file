@@ -1,0 +1,6 @@
+Topic: TravelMate- The Travel Planner.
+Description:
+A React-based web application that helps users explore destinations, 
+plan trips, create day-wise itineraries, check weather, manage travel expenses,
+ and save favourite places.
+  It will include API integration, React Hooks, React Router, Context API, localStorage, and responsive design.

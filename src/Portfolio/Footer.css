@@ -1,0 +1,26 @@
+/* ================= FOOTER ================= */
+
+.footer {
+  padding: 25px 20px;
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.footer span {
+  color: #d01c28;
+  font-weight: 600;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 13px;
+  }
+}

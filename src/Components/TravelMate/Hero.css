@@ -1,0 +1,44 @@
+.hero {
+  width: 85%;
+  height: 600px;
+  margin: 20px auto;
+
+  border-radius: 15px;
+
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.15);
+
+  border-radius: 15px;
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}

@@ -1,0 +1,168 @@
+/* ================= PROJECTS SECTION ================= */
+
+.projects {
+  min-height: 80vh;
+  padding: 100px 20px;
+  border-top: 1px solid #eeeeee;
+}
+
+/* Heading */
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.projects-heading .section-tag {
+  color: #d01c28;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.projects-heading h2 {
+  font-size: 38px;
+  color: #111827;
+}
+
+.projects-heading h2 span {
+  color: #d01c28;
+}
+
+/* Projects List */
+
+.projects-list {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* Project Card */
+
+.project-card {
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: #d01c28;
+}
+
+/* Project Content */
+
+.project-content h3 {
+  font-size: 22px;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.project-content p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.project-content span {
+  display: inline-block;
+  color: #d01c28;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+/* Buttons */
+
+.project-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.project-buttons button {
+  padding: 9px 18px;
+  border: 1px solid #d01c28;
+  border-radius: 5px;
+
+  background: #d01c28;
+  color: #ffffff;
+
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-buttons button:hover {
+  background: #ffffff;
+  color: #d01c28;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .projects {
+    padding: 70px 20px;
+  }
+
+  .projects-heading h2 {
+    font-size: 30px;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 25px;
+  }
+}
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+.project-card {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.filter-buttons button {
+  padding: 10px 22px;
+  border: 1px solid #d01c28;
+  border-radius: 25px;
+  background: transparent;
+  color: #111827;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons button:hover {
+  background: #d01c28;
+  color: white;
+  transform: translateY(-2px);
+}
